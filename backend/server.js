@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json({ limit: '30mb', extended: true }))  // to parse body in json format (body parser)
 app.use(express.urlencoded({limit: '30mb',extended:true}))
 const PORT= process.env.PORT || 5000
-const uri  = "mongodb+srv://Print-X:Pass%40123@cluster0.w844m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri  = "mongodb+srv://yantramnepal:nuG62AUhWPxQ8VCX@cluster1.rg6r7a9.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(uri,
     err => {
