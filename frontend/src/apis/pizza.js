@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://food-delivery-qao6.onrender.com/',
 });
 
 //"start": "node ./backend/server.js",

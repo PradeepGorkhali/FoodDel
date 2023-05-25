@@ -23,7 +23,7 @@ const Header = () => {
                <HiMenuAlt1/>
               </div>
 
-              <Link to="/"><img src="https://cdn-icons-png.flaticon.com/512/4039/4039232.png" alt="logo" /></Link>
+              <Link to="/"><img src="https://res.cloudinary.com/tuddrom-nepal/image/upload/v1685013852/J%20Pani/logo_wenmbf.png" alt="logo" /></Link>
             </div>
             <form onSubmit={handleSearch} className="search-bar">
                 <div className="input">

@@ -9,7 +9,8 @@ const Payment = () => {
     const dispatch =useDispatch()
     const user = useSelector(state=>state.user.user)
     const cartItems = useSelector(state=>state.cart.cartItems)
-    const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price*itm?.qty,0)
+    const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price,0)
+    // const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price*itm?.qty,0)
     const deleviryPrice = (cartPrice>500||cartPrice===0)?0:50
     const discount = 0;
     const totalPrice= (cartPrice+deleviryPrice)-discount;
@@ -59,7 +60,7 @@ const Payment = () => {
    </div>
    </div>
    <div className="checkout-area">
-                      <div className="billing">
+                      <div className="billing"  >
                         <h4>PRICE DETAILS</h4>
                         <div className="details">
                             <div className="item">

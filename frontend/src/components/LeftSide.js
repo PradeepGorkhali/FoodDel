@@ -49,10 +49,10 @@ const LeftSide = ({data ,show}) => {
             </div>
            { show?null:(<div className="sidebar-msg">
                 <div className="img">
-                    <img src={delivery} alt="" />
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/27dbbda7-320b-488b-b8cb-6d993296f095/dex5oj2-c2c65d0e-a1e1-4008-aa63-be680abc4942.png/v1/fill/w_758,h_1055/mechanic_mario_holding_a_wrench_by_transparentjiggly64_dex5oj2-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc4MiIsInBhdGgiOiJcL2ZcLzI3ZGJiZGE3LTMyMGItNDg4Yi1iOGNiLTZkOTkzMjk2ZjA5NVwvZGV4NW9qMi1jMmM2NWQwZS1hMWUxLTQwMDgtYWE2My1iZTY4MGFiYzQ5NDIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.lgpEYXQHq3MqYLAJBhxzP-g0Bfzl6m2thJLSfVPQzvo" alt="" />
                 </div>
                 <div className="text">
-                    <h2>Safe Delivery <span>@</span> your doors</h2>
+                    <h2>Hey, Let's see your problems</h2>
                 </div>
             </div>)}
            { show?null:(<div className="side-cart-area">

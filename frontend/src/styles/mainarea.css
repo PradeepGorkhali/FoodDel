@@ -34,8 +34,8 @@
   display: none;
 }
 .header img {
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 70px;
 }
 .header .input svg {
   width: 10%;
@@ -64,7 +64,7 @@
   position: relative;
 }
 .banner p {
-  color: rgb(128, 127, 127);
+  color: rgb(255, 255, 255);
   font-weight: 600;
   margin: 10px 0px;
 }
@@ -124,6 +124,7 @@
   justify-content: flex-start;
   margin-top: 2rem;
 }
+
 .category-area .category .cat-icon {
   display: flex;
   align-items: center;

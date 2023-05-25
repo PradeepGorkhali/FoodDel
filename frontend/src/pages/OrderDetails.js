@@ -70,7 +70,7 @@ const OrderDetails = () => {
                  </div>
 </div>
 <div className="checkout-area">
-                   <div className="billing">
+                   <div className="billing" style={{border:"1px solid red"}}>
                      <h4>PRICE DETAILS</h4>
                      <div className="details">
                          <div className="item">

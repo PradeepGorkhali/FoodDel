@@ -19,7 +19,10 @@ const OrderSummry = () => {
     const paymentMethod=useSelector(state=>state.order.pyamentMethod)
     const orderCreate =useSelector(state=>state.order)
     const cartItems = useSelector(state=>state.cart.cartItems)
-    const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price*itm?.qty,0)
+    // const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price*itm?.qty,0)
+
+
+    const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price,0)
     const deleviryPrice = (cartPrice>500||cartPrice===0)?0:50
     const discount = 0;
     const totalPrice= (cartPrice+deleviryPrice)-discount;

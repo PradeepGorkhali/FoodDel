@@ -10,15 +10,15 @@ const CartItemCard = ({item}) => {
     if(qty<1){
      setQty(1)
     }
- const increaseQty=()=>{
-    setQty(qty+1)
-    dispatch(upadteCart(item,Number(qty+1)))
+//  const increaseQty=()=>{
+//     setQty(qty+1)
+//     dispatch(upadteCart(item,Number(qty+1)))
 
- }
- const decreaseQty=()=>{
-    setQty(qty-1)
-    dispatch(upadteCart(item,Number(qty-1)))
- }
+//  }
+//  const decreaseQty=()=>{
+//     setQty(qty-1)
+//     dispatch(upadteCart(item,Number(qty-1)))
+//  }
    
 const reomveFormCartHandler =()=>{
 // delte action
@@ -32,13 +32,13 @@ dispatch(deleteItem(item.product))
             </div>
             <div className="des">
                <h3>{item.name}</h3>
-               <p>qty:{item.qty}</p>
+               {/* <p>qty:{item.qty}</p> */}
                <div className="handle">
-                   <div className="qty">
+                   {/* <div className="qty">
                        <div className='btn' onClick={decreaseQty}><IoMdRemove/></div>
                        <div className='item-qty'>{qty}</div>
                        <div className='btn' onClick={increaseQty}><IoMdAdd/></div>
-                   </div>
+                   </div> */}
                    <div className="delete" onClick={reomveFormCartHandler}>
                      <MdDelete/>
                    </div>

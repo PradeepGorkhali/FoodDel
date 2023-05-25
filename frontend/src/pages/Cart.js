@@ -8,7 +8,13 @@ import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 const Cart = () => {
     const cartItems = useSelector(state=>state.cart.cartItems)
-    const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price*itm?.qty,0)
+    const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price,0)
+
+    // const cartPrice=cartItems.reduce((total,itm)=>total+itm?.price*itm?.qty,0)-original
+
+
+
+
     const deleviryPrice = (cartPrice>500||cartPrice===0)?0:50
     const discount = 0;
     const totalPrice= (cartPrice+deleviryPrice)-discount;
