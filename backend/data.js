@@ -3,15 +3,15 @@ const data ={
     products: [
         {
           
-          name: 'P.Cooker Safety ',
+          name: 'Leaky Pipes ',
           category:'Burger',
-          image: 'https://i.ytimg.com/vi/qxFyGbUn1eA/maxresdefault.jpg',
-          price: 50,
+          image: 'https://williamscomfortair.com/wp-content/uploads/2020/11/plumbing-problem.jpg',
+          price: 500,
           countInStock: 10,
           type:'Veg',
-          rating: 4.5,
+          rating: 4,
           numReviews: 10,
-          description: 'Pressure Cooker Safety Valve Issue ',
+          description: 'Leaky Pipes',
         }
         
       ],
